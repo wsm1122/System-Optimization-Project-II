@@ -1,14 +1,14 @@
 # AISHELL-1 kNN-CTC course submission materials
 
-This directory collects the course report, AI-use statement, reproduction instructions, experiment code, frozen configuration, formal-verification materials, and compact R8-B/R9 result evidence from the local R10 submission package.
+This directory collects the course report, AI-use statement, reproduction instructions, selected stage reports, frozen configuration, and formal-verification materials from the local R10 submission package.
 
 ## Included
 
 - Final report PDF, public-safe stage reports, README, reproduction prompt, and AI-assistance statement.
 - The core optimization implementations and tests are in the repository root (`src/`, `tests/`, `configs/`). This folder adds the course-facing report, AI-use materials, and formal-verification code. It does not mirror every historical stage worker/orchestrator.
 - Frozen configuration and asset/environment audit records.
-- The root README records the aggregate R8-B/R9 outcomes. This public folder does not contain the raw per-audio result tables.
-- Third-party inference support source and its license notice where included in the original package.
+- The root README and final report PDF record the aggregate R8-B/R9 outcomes. This public folder does not contain the raw per-audio result tables.
+- The Z3 verification script, dependency pin, and solver result are under `formal_verification/`.
 
 ## Not included
 
