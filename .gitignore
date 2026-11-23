@@ -1,0 +1,21 @@
+# Dataset/model/index assets are intentionally external to this repository.
+assets/
+data/audio/
+*.wav
+*.flac
+*.pt
+*.pth
+*.npy
+*.indexed
+*.faiss
+*.index
+
+# Runtime and per-utterance experiment output.
+results/
+predictions.txt
+raw.jsonl
+score.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/

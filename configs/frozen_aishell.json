@@ -1,0 +1,23 @@
+{
+  "dataset": "AISHELL-1",
+  "baseline": {
+    "name": "E1",
+    "k": 1024,
+    "nprobe": 32,
+    "blank_aware": false,
+    "gpu_direct_allocation_aggregation": false
+  },
+  "selected": {
+    "name": "E2",
+    "k": 1024,
+    "nprobe": 32,
+    "blank_aware": true,
+    "gpu_direct_allocation_aggregation": false
+  },
+  "shared": {
+    "lambda": 0.5,
+    "temperature": 1.0,
+    "decode_skip_blank": true
+  },
+  "note": "Frozen evaluation configuration. No checkpoint, datastore, index, audio, or private asset digest is included."
+}
