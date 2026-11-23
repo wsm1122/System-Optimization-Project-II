@@ -32,6 +32,10 @@
 代码只读地展示优化入口；请先阅读 `docs/SAFETY_AND_SCOPE.md`。不建议对未经核验的环境直接运行全量 AISHELL-1。
 
 
-## 完整课程材料
+## 课程材料和逐条证据
 
-课程报告、复现 Prompt、AI 使用说明、各阶段源码与可公开的聚合结果已整理在 [`course_submission/README.md`](course_submission/README.md)。这是**经过公开安全筛选的课程材料镜像**，不是本机 43 MiB 证据 ZIP 的逐字节副本。逐条识别预测、按音频/说话人拆分的计时表、原始重复 worker 日志及含内部服务器/GPU 标识的运行记录未公开上传；原 ZIP 中的服务器路径变换清单也未上传。模型权重、音频、Datastore、FAISS 索引和中间张量同样不在仓库中。报告中的结果仍是历史实验汇总，不表示此次仓库上传时重新运行了实验。
+课程报告、AI 使用说明、复现 Prompt、阶段报告和形式化验证见 [课程材料](course_submission/README.md)。
+
+[逐条证据目录](course_submission/evidence/full/README.md)现已提供 R8-B 的 12 份完整开发集预测和逐条评分，以及 worker 汇总、图表、分析和脱敏资产记录；R9 当前只公开第一份测试预测。其余 R9 明细、原始逐请求日志和逐音频配对表仍受上传审批限制，不能宣称完整证据已全部公开。
+
+老师可执行 `python3 course_submission/evidence/full/verify_published.py`，无需 GPU 即可核对公开文件、开发集预测一致性、逐条错误计数和进程级统计。模型、音频、Datastore、FAISS 索引仍需单独准备；本仓库未声明已在干净服务器完成真实全流程重跑。

@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "audio_count": 7176,
+  "speaker_count": 20,
+  "assets": {
+    "checkpoint": {
+      "path": "${PROJECT_ROOT}/r9/snapshot/assets/model/final.pt",
+      "sha256": "aa4cec2e2fc47b2061bcc47047df9d5a8782155145df3f61ff3d550e4568a606",
+      "expected": "aa4cec2e2fc47b2061bcc47047df9d5a8782155145df3f61ff3d550e4568a606"
+    },
+    "model_config": {
+      "path": "${PROJECT_ROOT}/r9/snapshot/assets/model/train.reproduction.yaml",
+      "sha256": "3876b791a40ae5efbab7fcd8610cd06d056cca9b5ea5fc7a27af59925049f7f1",
+      "expected": "3876b791a40ae5efbab7fcd8610cd06d056cca9b5ea5fc7a27af59925049f7f1"
+    },
+    "dictionary": {
+      "path": "${PROJECT_ROOT}/r9/snapshot/assets/model/units.txt",
+      "sha256": "c5146cef40588dcea3ef679c9c05d4eaeb2c37b5369002094369a5722d284de6",
+      "expected": "c5146cef40588dcea3ef679c9c05d4eaeb2c37b5369002094369a5722d284de6"
+    },
+    "cmvn": {
+      "path": "${PROJECT_ROOT}/r9/snapshot/assets/model/global_cmvn",
+      "sha256": "35d2b94d5873b4225c0a5174558e89708aafb52105bd17af6abc41b8ffefab39",
+      "expected": "35d2b94d5873b4225c0a5174558e89708aafb52105bd17af6abc41b8ffefab39"
+    },
+    "keys": {
+      "path": "${PROJECT_ROOT}/r9/snapshot/assets/store/dstore_1798000_256_keys.npy",
+      "sha256": "93e0974a8f3edac0076c2ae712088c2e17607e2078357175de285dbb8b5df980",
+      "expected": "93e0974a8f3edac0076c2ae712088c2e17607e2078357175de285dbb8b5df980"
+    },
+    "values": {
+      "path": "${PROJECT_ROOT}/r9/snapshot/assets/store/dstore_1798000_256_vals.npy",
+      "sha256": "6f9fe8c4ff01700e293fabf15222e5a93d50d644771be62efb8601e84d350815",
+      "expected": "6f9fe8c4ff01700e293fabf15222e5a93d50d644771be62efb8601e84d350815"
+    },
+    "index": {
+      "path": "${PROJECT_ROOT}/r9/snapshot/assets/store/index_1798000_256.indexed",
+      "sha256": "c810f5ed569458a89fd090253cfd681cac9f583c67e95ea74eab8fca85bbdbeb",
+      "expected": "c810f5ed569458a89fd090253cfd681cac9f583c67e95ea74eab8fca85bbdbeb"
+    },
+    "manifest": {
+      "path": "${PROJECT_ROOT}/r9/snapshot/assets/store/reproduction_manifest.json",
+      "sha256": "f0e48335eda5a200b144568167816eeae81632b7dba5be23ca24a5316a696636",
+      "expected": "f0e48335eda5a200b144568167816eeae81632b7dba5be23ca24a5316a696636"
+    }
+  },
+  "test_manifest_sha256": "a7a3670a811ae6de306f36c35f040187f16ae3cee4a705db6a6d9230cb173e1f",
+  "test_reference_sha256": "d490d294b203d469ef81bc45801ce64679c2446d46e97d594cb155db717dd3d2",
+  "audio_sha256_all_verified": true
+}

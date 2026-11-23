@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "variant": "E1",
+  "split": "test",
+  "gpu_aggregation": false,
+  "gpu": {
+    "logical_gpu": 0
+  },
+  "initialization_seconds": 2.7833604402840137,
+  "environment": {
+    "torch": "1.13.0+cu117",
+    "cuda": "11.7",
+    "gpu": "NVIDIA RTX A6000",
+    "logical_device": 0,
+    "faiss": "1.7.2",
+    "index_type": "GpuIndexIVFPQ"
+  },
+  "performance": {
+    "status": "PASS",
+    "count": 7176,
+    "synchronized_modules": false,
+    "task_seconds": 117.9243202530779,
+    "scoring_seconds": 1.558566794730723,
+    "loader_setup_ms": 39.45949114859104,
+    "mean_request_ms": 16.404210849521824,
+    "p95_request_ms": 18.779351259581745,
+    "requests_per_second": 60.85258735941454,
+    "audio_seconds_per_second": 306.20417281190635,
+    "torch_allocated_peak": 357138432,
+    "torch_reserved_peak": 406847488,
+    "cpu_max_rss_kib": 4169744,
+    "scores": {
+      "N": 104765,
+      "C": 99897,
+      "S": 4726,
+      "D": 142,
+      "I": 98,
+      "errors": 4966,
+      "cer_percent": 4.740132677898153
+    }
+  },
+  "queries": 891092,
+  "search_calls": 7176,
+  "successful_neighbor_guard_calls": 7176,
+  "guard_status": "PASS",
+  "predictions_sha256": "e9a10ec076d6f2663e97d583751b10c6f56afe2d2d1791abbf5ea6a815401b11"
+}

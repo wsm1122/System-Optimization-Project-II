@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "run_id": "combine_20261122T120238Z_cacaf324",
+  "unchanged_execution_sources": 83,
+  "unchanged_history_files": 852,
+  "assets": {
+    "checkpoint": {
+      "sha256": "aa4cec2e2fc47b2061bcc47047df9d5a8782155145df3f61ff3d550e4568a606",
+      "expected": "aa4cec2e2fc47b2061bcc47047df9d5a8782155145df3f61ff3d550e4568a606"
+    },
+    "model_config": {
+      "sha256": "3876b791a40ae5efbab7fcd8610cd06d056cca9b5ea5fc7a27af59925049f7f1",
+      "expected": "3876b791a40ae5efbab7fcd8610cd06d056cca9b5ea5fc7a27af59925049f7f1"
+    },
+    "dictionary": {
+      "sha256": "c5146cef40588dcea3ef679c9c05d4eaeb2c37b5369002094369a5722d284de6",
+      "expected": "c5146cef40588dcea3ef679c9c05d4eaeb2c37b5369002094369a5722d284de6"
+    },
+    "cmvn": {
+      "sha256": "35d2b94d5873b4225c0a5174558e89708aafb52105bd17af6abc41b8ffefab39",
+      "expected": "35d2b94d5873b4225c0a5174558e89708aafb52105bd17af6abc41b8ffefab39"
+    },
+    "keys": {
+      "sha256": "93e0974a8f3edac0076c2ae712088c2e17607e2078357175de285dbb8b5df980",
+      "expected": "93e0974a8f3edac0076c2ae712088c2e17607e2078357175de285dbb8b5df980"
+    },
+    "values": {
+      "sha256": "6f9fe8c4ff01700e293fabf15222e5a93d50d644771be62efb8601e84d350815",
+      "expected": "6f9fe8c4ff01700e293fabf15222e5a93d50d644771be62efb8601e84d350815"
+    },
+    "index": {
+      "sha256": "c810f5ed569458a89fd090253cfd681cac9f583c67e95ea74eab8fca85bbdbeb",
+      "expected": "c810f5ed569458a89fd090253cfd681cac9f583c67e95ea74eab8fca85bbdbeb"
+    },
+    "manifest": {
+      "sha256": "f0e48335eda5a200b144568167816eeae81632b7dba5be23ca24a5316a696636",
+      "expected": "f0e48335eda5a200b144568167816eeae81632b7dba5be23ca24a5316a696636"
+    }
+  },
+  "test_inference": false
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "count": 14326,
+  "synchronized_modules": false,
+  "task_seconds": 215.2788386340253,
+  "scoring_seconds": 3.1706179077737033,
+  "loader_setup_ms": 77.49296817928553,
+  "mean_request_ms": 14.999506759650888,
+  "p95_request_ms": 15.981767792254686,
+  "requests_per_second": 66.54625271531795,
+  "audio_seconds_per_second": 302.496260376553,
+  "torch_allocated_peak": 355772928,
+  "torch_reserved_peak": 406847488,
+  "cpu_max_rss_kib": 4207204,
+  "scores": {
+    "N": 205341,
+    "C": 196638,
+    "S": 8494,
+    "D": 209,
+    "I": 209,
+    "errors": 8912,
+    "cer_percent": 4.340097691157635
+  }
+}

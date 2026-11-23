@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "execution_status": "PASS",
+  "quality_preserved": true,
+  "all_predictions_identical": true,
+  "query_reduction_percent": 87.86578714655727,
+  "reliable_request_improvement": true,
+  "reliable_task_improvement": true,
+  "integrity": "PASS",
+  "test_parameter_selection": false,
+  "submission_updated": false,
+  "run_id": "final_20261122T131820Z_93ef984b"
+}
