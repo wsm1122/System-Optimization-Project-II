@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "scope": "historical predictions, per-utterance scores, all 18 raw request logs and published file integrity checks",
+  "new_gpu_run": false,
+  "raw_request_logs": 18,
+  "results": {
+    "r8b": {
+      "prediction_files": 12,
+      "audio_per_file": 14326,
+      "predictions_byte_equal": true,
+      "cer_percent": 4.340097691157635,
+      "process_mean_request_ms": {
+        "E1": 15.765006175214703,
+        "E2": 14.939530841499396,
+        "E3": 15.620671703763927,
+        "E4": 15.141622512563394
+      },
+      "E2_minus_E1_process_t95_ci_ms": [
+        -1.1388287007077924,
+        -0.512121966722824
+      ]
+    },
+    "r9": {
+      "prediction_files": 6,
+      "audio_per_file": 7176,
+      "predictions_byte_equal": true,
+      "cer_percent": 4.740132677898153,
+      "process_mean_request_ms": {
+        "E1": 16.436934155498193,
+        "E2": 15.197961481106553
+      },
+      "E2_minus_E1_process_t95_ci_ms": [
+        -1.8654365990892594,
+        -0.6125087496940237
+      ]
+    }
+  },
+  "verification_location": "local reviewed export",
+  "github_full_payload_status": "BLOCKED_BY_AUTOMATIC_APPROVAL_REVIEW",
+  "scope_note": "This receipt records a local read-only audit; it does not imply that the underlying full payload was published on GitHub."
+}
