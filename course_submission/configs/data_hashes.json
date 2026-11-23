@@ -1,0 +1,9 @@
+{
+  "data/train.jsonl": "9cad31d13719df0f7728c1acbac652b52f9f1b0a04d02bc92c2b01df1ec795cb",
+  "data/train.reference.txt": "b850612e5fa913b393a274a78e9ebc9287a36a5489561f4967d7de74698528b9",
+  "data/dev.jsonl": "eb0b1fb68e66597f69ba9ea1b694dd6160b75d26b35202129aa1692e53d54569",
+  "data/dev.reference.txt": "c0ab7548c44fb553cf246196e6d4a068130106fee8ff99c3efcae41193ed533e",
+  "data/test.jsonl": "a7a3670a811ae6de306f36c35f040187f16ae3cee4a705db6a6d9230cb173e1f",
+  "data/test.reference.txt": "d490d294b203d469ef81bc45801ce64679c2446d46e97d594cb155db717dd3d2",
+  "audit/audio_sha256.jsonl": "fa09995fb403e13e56378bc7cd5b5a9ad1798cc2e4e2501baa8374917a646f5a"
+}

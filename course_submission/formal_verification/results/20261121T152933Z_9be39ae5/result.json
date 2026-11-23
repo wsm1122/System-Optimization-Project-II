@@ -1,0 +1,110 @@
+{
+  "status": "PASS",
+  "z3_version": "4.13.3",
+  "N": 1798000,
+  "V": 4233,
+  "queries": [
+    {
+      "name": "id_guard_safe",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "conditional_label_safe",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "missing_label_contract",
+      "expected": "sat",
+      "actual": "sat",
+      "passed": true,
+      "witness": {
+        "id": 430208,
+        "label": -1
+      }
+    },
+    {
+      "name": "missing_id_lower_bound",
+      "expected": "sat",
+      "actual": "sat",
+      "passed": true,
+      "witness": {
+        "id": -1,
+        "label": 0
+      }
+    },
+    {
+      "name": "relaxed_id_upper_bound",
+      "expected": "sat",
+      "actual": "sat",
+      "passed": true,
+      "witness": {
+        "id": 1798000,
+        "label": 0
+      }
+    },
+    {
+      "name": "id_minus_one_rejected",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "id_N_rejected",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "label_minus_one_actual",
+      "expected": "sat",
+      "actual": "sat",
+      "passed": true,
+      "witness": {
+        "id": 430208,
+        "label": -1
+      }
+    },
+    {
+      "name": "label_V_actual",
+      "expected": "sat",
+      "actual": "sat",
+      "passed": true,
+      "witness": {
+        "id": 127056,
+        "label": 4233
+      }
+    },
+    {
+      "name": "label_minus_one_contract",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "label_V_contract",
+      "expected": "unsat",
+      "actual": "unsat",
+      "passed": true
+    },
+    {
+      "name": "blank_valid",
+      "expected": "sat",
+      "actual": "sat",
+      "passed": true,
+      "witness": {
+        "id": 127056,
+        "label": 0
+      }
+    }
+  ],
+  "scope": "bounded integer abstraction; actual ID guard plus explicit label data contract",
+  "unconditional_scatter_safety": "NOT PROVED; SAT counterexamples",
+  "empty_inputs": "N=0 and K=0 excluded by positive-size/nonempty guard preconditions",
+  "source_mapping": "../../retrieval_guards.py and ../../gpu_aggregation.py",
+  "label_contract_evidence": "../../audit/assets.json",
+  "does_not_prove": "FAISS, floating point, PyTorch/CUDA, ASR correctness"
+}

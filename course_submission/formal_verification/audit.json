@@ -1,0 +1,13 @@
+{
+  "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+  "z3_version": "4.13.3",
+  "script_sha256": "3e920f0dae02e5fbfe45a6d930fa4820eb1b6639f210d242ec9e35efc7e7f53d",
+  "runs": [
+    {
+      "run": "20261121T152933Z_9be39ae5",
+      "status": "PASS",
+      "SAT": 6,
+      "UNSAT": 6
+    }
+  ]
+}

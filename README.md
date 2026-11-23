@@ -30,3 +30,8 @@
 - 本仓库不包含一键真实 GPU 复现所需的音频、checkpoint、Datastore 或 FAISS 索引，也不声称在干净机器完成过完整 GPU 重跑。
 
 代码只读地展示优化入口；请先阅读 `docs/SAFETY_AND_SCOPE.md`。不建议对未经核验的环境直接运行全量 AISHELL-1。
+
+
+## 完整课程材料
+
+课程报告、复现 Prompt、AI 使用说明、各阶段源码与可公开的聚合结果已整理在 [`course_submission/README.md`](course_submission/README.md)。这是**经过公开安全筛选的课程材料镜像**，不是本机 43 MiB 证据 ZIP 的逐字节副本。逐条识别预测、按音频/说话人拆分的计时表、原始重复 worker 日志及含内部服务器/GPU 标识的运行记录未公开上传；原 ZIP 中的服务器路径变换清单也未上传。模型权重、音频、Datastore、FAISS 索引和中间张量同样不在仓库中。报告中的结果仍是历史实验汇总，不表示此次仓库上传时重新运行了实验。
