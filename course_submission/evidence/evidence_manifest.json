@@ -1,0 +1,28 @@
+{
+  "evidence_scope": "privacy-reduced process-level summaries; not a complete raw evidence archive",
+  "records": [
+    {
+      "stage": "R8-B",
+      "run_id": "combine_20261122T120238Z_cacaf324",
+      "source_basename": "process_summary.csv",
+      "public_file": "r8b_process_summary_public.csv",
+      "variants": ["E1", "E2", "E3", "E4"],
+      "redacted_columns": ["pid"]
+    },
+    {
+      "stage": "R9",
+      "run_id": "final_20261122T131820Z_93ef984b",
+      "source_basename": "process_summary.csv",
+      "public_file": "r9_process_summary_public.csv",
+      "variants": ["E1", "E2"],
+      "redacted_columns": ["pid", "prediction_sha256"]
+    }
+  ],
+  "not_published": [
+    "per-utterance predictions",
+    "per-audio timing rows",
+    "speaker identifiers",
+    "raw JSONL worker traces",
+    "hostnames, process IDs, GPU UUIDs, and server-specific paths"
+  ]
+}
